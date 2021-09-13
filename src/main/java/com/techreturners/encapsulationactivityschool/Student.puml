@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Student{
+-name:String
+-grade:char
+-group:int
+-secretNickname:String
+
++Student(studentName:String, studentGrade:char, studentGroup:int):void
++setName(studentName:String):void
++getName():String
+-setGrade(studentGrade:char)void
++getGrade():char
++upGrade():void
++downGrade():void
++setSecretNickname(studentNickname:String):void
++setGroup(studentGroup:int):void
++getGroup():int
+
+}
+
+
+@enduml
